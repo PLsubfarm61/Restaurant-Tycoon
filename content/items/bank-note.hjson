@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Bank Note",
+	description": ".",
+	cost: 3.0,
+	color: "669900"
+}

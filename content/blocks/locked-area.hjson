@@ -1,0 +1,11 @@
+{
+    type: "wall",
+    category: "crafting",
+    name: "Locked Area",
+    size: 10,
+    health: 99999999,
+
+    requirements: [
+        "surge-alloy/9999",
+    ],
+}

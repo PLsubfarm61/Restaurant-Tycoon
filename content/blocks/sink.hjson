@@ -1,0 +1,25 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Sink",
+
+    size: 2,
+    health: 900,
+
+    menu: "Transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-dirty-dishes/1",
+],
+            },
+            output: "restaurant-tycoon-dishes/1",
+            craftTime: 60 
+        },
+    ],
+
+    requirements: [
+        "coin/10",
+    ],
+}

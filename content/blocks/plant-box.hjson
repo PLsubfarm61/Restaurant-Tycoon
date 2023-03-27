@@ -1,0 +1,70 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Plant Box",
+
+    size: 6,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/1",
+],
+            },
+            output: "restaurant-tycoon-potato/8",
+            craftTime: 3000 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/2",
+],
+            },
+            output: "restaurant-tycoon-carrot/8",
+            craftTime: 3000 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/3",
+],
+            },
+            output: "restaurant-tycoon-cucumber/8",
+            craftTime: 3000 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/1",
+],
+            },
+            output: "restaurant-tycoon-tomato/4",
+            craftTime: 3000 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/3",
+],
+            },
+            output: "restaurant-tycoon-onion/5",
+            craftTime: 3000 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/1",
+],
+            },
+            output: "restaurant-tycoon-lettuce/3",
+            craftTime: 3000 
+        },
+    ],
+
+    requirements: [
+        "coin/30",
+    ],
+}

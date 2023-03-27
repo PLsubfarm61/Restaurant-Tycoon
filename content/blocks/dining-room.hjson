@@ -1,0 +1,46 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Dining Room",
+
+    size: 12,
+    health: 900,
+
+    menu: "Transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-fries/1",
+],
+            },
+            output: "restaurant-tycoon-coin/1",
+            craftTime: 20 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-sliced-carrot/1",
+],
+            },
+            output: "restaurant-tycoon-coin/1",
+            craftTime: 20 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-vegetable-salad/1",
+],
+            },
+            output: [
+"restaurant-tycoon-coin/8",
+"restaurant-tycoon-dirty-dishes/1",
+],
+            craftTime: 20 
+        },
+    ],
+
+    requirements: [
+        "bank-note/1",
+    ],
+}

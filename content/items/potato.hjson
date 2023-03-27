@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Potato",
+	description": ".",
+	cost: 3.0,
+	color: "d99d73"
+}

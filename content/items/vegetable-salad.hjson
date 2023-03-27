@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Vegetable Salad",
+	description": ".",
+	cost: 3.0,
+	color: "05ff50"
+}

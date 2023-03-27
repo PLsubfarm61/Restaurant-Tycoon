@@ -1,0 +1,97 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Hangar",
+
+    size: 5,
+    health: 900,
+
+    menu: "Simple",
+    recipes: [
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "restaurant-tycoon-dishes/5",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "copper/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "lead/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "titanium/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "silicon/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "graphite/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "plastanium/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "thorium/50",
+            craftTime: 600 
+        },
+        {
+            input: {
+"items": [
+            "restaurant-tycoon-coin/10",
+],
+            },
+            output: "metaglass/50",
+            craftTime: 600 
+        },
+    ],
+
+    requirements: [
+        "coin/30",
+    ],
+}

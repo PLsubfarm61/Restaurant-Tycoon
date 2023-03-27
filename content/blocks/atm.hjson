@@ -1,0 +1,34 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "ATM",
+
+    size: 2,
+    health: 900,
+
+    menu: "Transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-coin/100",
+],
+            },
+            output: "restaurant-tycoon-bank-note/1",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-bank-note/1",
+],
+            },
+            output: "restaurant-tycoon-coin/100",
+            craftTime: 60 
+        },
+    ],
+
+    requirements: [
+        "coin/50",
+    ],
+}

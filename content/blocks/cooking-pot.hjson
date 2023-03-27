@@ -1,0 +1,25 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Fryer",
+
+    size: 2,
+    health: 900,
+
+    menu: "Transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-sliced-potato/3",
+],
+            },
+            output: "restaurant-tycoon-fries/3",
+            craftTime: 180 
+        },
+    ],
+
+    requirements: [
+        "coin/10",
+    ],
+}

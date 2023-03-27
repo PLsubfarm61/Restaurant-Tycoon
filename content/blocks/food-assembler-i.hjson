@@ -1,0 +1,29 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Food Assembler I",
+
+    size: 3,
+    health: 900,
+
+    menu: "Detailed",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-dishes/1",
+                "restaurant-tycoon-lettuce/1",
+                "restaurant-tycoon-sliced-tomato/1",
+                "restaurant-tycoon-sliced-cucumber/1",
+                "restaurant-tycoon-sliced-onion/1",
+],
+            },
+            output: "restaurant-tycoon-vegetable-salad/1"
+            craftTime: 180 
+        },
+    ],
+
+    requirements: [
+        "coin/30",
+    ],
+}

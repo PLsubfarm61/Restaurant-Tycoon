@@ -1,0 +1,25 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Waterwoks",
+
+    size: 3,
+    health: 900,
+
+    menu: "Transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-coin/1",
+],
+            },
+            output: "water/0.4",
+            craftTime: 10 
+        },
+    ],
+
+    requirements: [
+        "coin/30",
+    ],
+}

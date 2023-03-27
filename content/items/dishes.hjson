@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Dishes",
+	description": ".",
+	cost: 3.0,
+	color: "ebeef5"
+}

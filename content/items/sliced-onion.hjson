@@ -1,0 +1,7 @@
+{
+	type: "material",
+	name: "Sliced Onion",
+	description": ".",
+	cost: 3.0,
+	color: "7cba40"
+}

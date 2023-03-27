@@ -1,0 +1,70 @@
+{
+    type: "multicraft.MultiCrafter",
+    category: "crafting",
+    name: "Cutter",
+
+    size: 2,
+    health: 900,
+
+    menu: "Transform",
+    recipes: [
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-potato/1",
+],
+            },
+            output: "restaurant-tycoon-peeled-potato/1",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-peeled-potato/1",
+],
+            },
+            output: "restaurant-tycoon-sliced-potato/1",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-carrot/1",
+],
+            },
+            output: "restaurant-tycoon-sliced-carrot/1",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-tomato/1",
+],
+            },
+            output: "restaurant-tycoon-sliced-tomato/1",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-cucumber/1",
+],
+            },
+            output: "restaurant-tycoon-sliced-cucumber/1",
+            craftTime: 60 
+        },
+        {
+            input: {
+"items": [
+                "restaurant-tycoon-onion/1",
+],
+            },
+            output: "restaurant-tycoon-sliced-onion/1",
+            craftTime: 60 
+        },
+    ],
+
+    requirements: [
+        "coin/6",
+    ],
+}
